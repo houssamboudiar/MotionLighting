@@ -1,0 +1,129 @@
+/* latin */
+
+@font-face {
+    font-family: 'digital-7';
+    src: url("./fonts/digital-7.ttf")
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #212121;
+    color: #f1f1f1;
+    font-family: "digital-7";
+
+}
+
+.card-header {
+    text-align: center;
+    margin: 75px 0;
+    font-size: 100px;
+    color: #b51743;
+}
+
+.card-body {
+    display: block;
+    width: 750px;
+    margin: 0 auto;
+}
+
+.card-body .wrapper {
+    position: relative;
+    margin-bottom: 30px
+}
+
+.card-body .wrapper input[type=checkbox] {
+    position: absolute;
+    top: 7px;
+    right: 0
+}
+
+h1.connection {
+    font-size: 45px;
+}
+
+.data h1.connection {
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+input[type=checkbox] {
+    opacity: 1;
+    position: relative;
+    height: 30px;
+    width: 75px;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:before {
+    content: '';
+    display: inline-block;
+    height: 30px;
+    width: 65px;
+    background: #f1f2f3;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+input[type="checkbox"]:after {
+    content: '';
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+    background: #b51743;
+    border-radius: 20px;
+    position: absolute;
+    top: 1px;
+    right: 35px;
+    transition: right .2s ease-in;
+}
+
+input[type="checkbox"]:checked:after {
+    right: 1px;
+    background: #209055
+}
+
+h3{
+    margin-top: 10px;
+    font-size: 27px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+span.value{
+    float: right
+}
+
+.red{
+    color: #b51743;
+}
+
+.orange{
+    color: #c5944f
+}
+
+.green{
+    color: #209055;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AL | Belguidoum </title>
+
+    <link href="/main.css" rel="stylesheet">
+    <script src="jquery.min.js"></script>
+    <script src="/webjars/sockjs-client/sockjs.min.js"></script>
+    <script src="/webjars/stomp-websocket/stomp.min.js"></script>
+    <script src="/app.js"></script>
+</head>
+
+<body>
+    <div id="main-content" class="container">
+
+        <div class="card">
+            <h5 class="card-header">Realtime Sensor Data Flow :</h5>
+            <div class="card-body">
+
+                <div class="wrapper">
+                    <h1 class="card-title connection" id="greetings">Connection State : <span class="state red">Not Connected</span> </h1>
+                    <input class="connect-btn" type="checkbox" id="connect-btn" />
+                </div>
+                <div class="data">
+                    <h1 class="connection">Sensor's State : </h1>
+                    <h3 class="sensor" id="motion">Motion Sensor: <span class="state red">Not Connected</span></h3>
+                    <h3 class="sensor" id="light">Light Sensor: <span class="state red">Not Connected</span></h3>
+                    <h3 class="sensor" id="led">Led: <span class="state red">Not Connected</span></h3>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
